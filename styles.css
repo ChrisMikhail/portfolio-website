@@ -76,12 +76,11 @@ main {
 
 #about-projbtn {
     visibility: visible;
-    padding: calc(5px + 1vw);
-    font-size: calc(10px + 1.5vw);
     position: absolute;
     left: 50%;
     transform: translate(-50%);
     margin: 0;
+    text-decoration: none;
 }
 
 .typed {
@@ -115,7 +114,8 @@ footer {
 
 .projects-button {
     background-color: var(--background-color);
-    padding: calc(5px + 1.5vw);
+    padding: calc(5px + 1vw);
+    font-size: calc(10px + 1.5vw);
     border: 1px solid var(--border-color);
     visibility:hidden;
     margin: 0;
