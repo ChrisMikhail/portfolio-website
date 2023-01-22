@@ -6,12 +6,12 @@
 * {
     box-sizing: border-box;
     color: aliceblue;
+    font-family: monospace;
 }
 
  body {
     display: flex;
     background-color: var(--background-color);
-    font-family: monospace;
     flex-direction: column;
     height: 100vh;
     margin: 0;
@@ -58,6 +58,29 @@ main {
     font-size: calc(10px + 1.7vw);
     width: 100%;
     text-align: center;
+    margin: 0;
+}
+
+.main-about {
+    padding: 0 calc(15px + 3vw) 0 calc(15px + 3vw);
+    padding-bottom: 3rem;
+}
+
+.about-p {
+    text-align: left;
+}
+
+.about-p a {
+    text-decoration: underline;
+}
+
+#about-projbtn {
+    visibility: visible;
+    padding: calc(5px + 1vw);
+    font-size: calc(10px + 1.5vw);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
     margin: 0;
 }
 
