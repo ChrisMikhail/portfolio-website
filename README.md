@@ -6,4 +6,4 @@ link: https://chrismikhail.github.io
 
 Website is also mobile responsive! 
 
-![image](https://user-images.githubusercontent.com/112285076/216119471-8fc196ed-b5a6-421a-a263-d1527b0abbfe.png)
+<img width="237" alt="image" src="https://user-images.githubusercontent.com/112285076/216671637-c5c0e38f-cbbb-48c3-b7f3-e049fecddbb5.png">
