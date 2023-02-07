@@ -61,16 +61,16 @@ a {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    margin: 0 0 calc(5rem + 1vw) 0;
-    justify-content: space-evenly;
-    column-gap: calc(0.5px + 1.5vw);
-    row-gap: calc(1.5px + 1.5vw);
+    margin: 0 calc(3rem + 1vw) calc(5rem + 1vw) calc(3rem + 1vw);
+    justify-content: space-around;
+    column-gap: calc(1px + 1.5vw);
+    row-gap: calc(5px + 3vw);
 }
 
 .projects-grid {
     background-color: var(--background-color);
     border: 1px solid var(--border-color);
-    padding: calc(10rem + 1vw);
+    padding: calc(4.5rem + 3.4vw);
     font-size: calc(2rem + 1vw);
     text-align: center;
     border-radius: 10px;
@@ -95,6 +95,7 @@ main {
 .main-about {
     padding: 0 calc(10px + 3vw) 0 calc(10px + 3vw);
     padding-bottom: 3rem;
+    line-height: 1.4;
 }
 
 .about-p {
