@@ -1,7 +1,6 @@
 var typed = new Typed(".typed", {
-  strings: ["I'm a CS student\nat Toronto Metropolitan University.\nI enjoy making things, come take a look!"],
+  strings: ["Hi, I'm Chris Mikhail.", "I'm a CS student.", "I'm a developer.", "I'm a problem solver."],
   typeSpeed: 80,
-  onComplete: function() {
-    $(".projects-button").css("visibility", "visible");
-  }
+  loop: true,
+  backSpeed: 50,
 });
