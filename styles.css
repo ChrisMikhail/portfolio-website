@@ -217,3 +217,12 @@ main {
     }
 }
 
+
+.cv {
+    max-width: 100%;
+    height: auto;
+}
+
+.download-cv a {
+    text-decoration: underline;
+}
