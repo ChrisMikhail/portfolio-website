@@ -68,12 +68,11 @@ a {
     row-gap: calc(5px + 3vw);
 }
 
-#calculator {
-    background: linear-gradient(rgba(5, 10, 24, 0.6), rgba(5, 10, 24, 0.6)), url("images/calculator.png");
+#pantry {
+    background: linear-gradient(rgba(5, 10, 24, 0.6), rgba(5, 10, 24, 0.6)), url("images/pantrypal.png");
     object-fit: cover;
     background-position: center;
     background-size: cover;
-    /* background-image: url("low-poly-grid-haikei.svg"); */
 }
 
 #webscraper {
